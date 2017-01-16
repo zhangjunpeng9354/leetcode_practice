@@ -3,5 +3,5 @@ project(leetcode_practice)
 
 set(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++")
 
-set(SOURCE_FILES NumberComplement476.cpp)
+set(SOURCE_FILES FizzBuzz412.cpp)
 add_executable(leetcode_practice ${SOURCE_FILES})
