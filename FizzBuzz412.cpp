@@ -63,7 +63,7 @@ vector<string> fizzBuzz(int n) {
 }
 
 int main() {
-    int num =100;
+    int num =200;
     vector<string> list = fizzBuzz(num);
     for (int i = 0; i < num; ++i) {
         cout << i + 1 << ":\t" << list[i] << endl;
